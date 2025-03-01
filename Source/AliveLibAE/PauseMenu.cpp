@@ -52,26 +52,26 @@ ALIVE_ARY(1, 0x554474, u8, 32, pal_554474, {0x00, 0x00, 0x21, 0x84, 0x42, 0x88, 
 // Menu Text Data
 
 PauseMenuPageEntry PauseMenu__PageEntryList_Main_55E1C8[11] = {
-    {2, 184, 48, 0, "continue", 128u, 16u, 255u, 1u},
+    {2, 184, 48, 0, "continuar", 128u, 16u, 255u, 1u},
     {2, 184, 70, 0, "quiksave", 128u, 16u, 255u, 1u},
 #if DEVELOPER_MODE
     {2, 184, 92, 0, "developer", 33u, 127u, 33u, 1u},
 #else
-    {2, 184, 92, 0, "controls", 128u, 16u, 255u, 1u},
+    {2, 184, 92, 0, "controles", 128u, 16u, 255u, 1u},
 #endif
-    {2, 184, 114, 0, "status", 128u, 16u, 255u, 1u},
-    {2, 184, 136, 0, "save", 128u, 16u, 255u, 1u},
-    {2, 184, 158, 0, "load", 128u, 16u, 255u, 1u},
-    {2, 184, 180, 0, "restart path", 128u, 16u, 255u, 1u},
-    {2, 184, 202, 0, "quit", 128u, 16u, 255u, 1u},
-    {1, 184, 16, 0, "paused", 128u, 16u, 255u, 1u},
+    {2, 184, 114, 0, "situacion", 128u, 16u, 255u, 1u},
+    {2, 184, 136, 0, "guardar", 128u, 16u, 255u, 1u},
+    {2, 184, 158, 0, "cargar", 128u, 16u, 255u, 1u},
+    {2, 184, 180, 0, "reiniciar ruta", 128u, 16u, 255u, 1u},
+    {2, 184, 202, 0, "Salir", 128u, 16u, 255u, 1u},
+    {1, 184, 16, 0, "pausa", 128u, 16u, 255u, 1u},
     {1, 280, 16, 0, sScreenStringBuffer_5C92F0, 128u, 16u, 255u, 0u},
     {0, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 
 PauseMenuPageEntry PauseMenu__PageEntryList_ControlActions_55d820[17] = {
-    {2, 184, 205, 0, "more", 128, 16, 255, Centre},
-    {1, 184, 20, 0, "Actions", 127, 127, 127, Centre},
+    {2, 184, 205, 0, "mas", 128, 16, 255, Centre},
+    {1, 184, 20, 0, "Acciones", 127, 127, 127, Centre},
     {1, 180, 50, 0, kRun "+" kLeft kRight, 160, 160, 160, Right},
     {1, 180, 70, 0, kSneak "+" kLeft kRight, 160, 160, 160, Right},
     {1, 180, 90, 0, kJump, 160, 160, 160, Right},
@@ -79,28 +79,28 @@ PauseMenuPageEntry PauseMenu__PageEntryList_ControlActions_55d820[17] = {
     {1, 180, 135, 0, kDown, 160, 160, 160, Right},
     {1, 180, 150, 0, kAction, 160, 160, 160, Right},
     {1, 180, 173, 0, kUp, 160, 160, 160, Right},
-    {1, 200, 50, 0, "run", 128, 16, 255, Left},
-    {1, 200, 70, 0, "sneak", 128, 16, 255, Left},
-    {1, 200, 90, 0, "jump", 128, 16, 255, Left},
-    {1, 200, 110, 0, "throw", 128, 16, 255, Left},
-    {1, 200, 130, 0, "crouch", 128, 16, 255, Left},
-    {1, 200, 150, 0, "action", 128, 16, 255, Left},
-    {1, 200, 170, 0, "hoist " kHoistZTurn " zturn", 128, 16, 255, Left},
+    {1, 200, 50, 0, "correr", 128, 16, 255, Left},
+    {1, 200, 70, 0, "escabullirse", 128, 16, 255, Left},
+    {1, 200, 90, 0, "saltar", 128, 16, 255, Left},
+    {1, 200, 110, 0, "lanzar", 128, 16, 255, Left},
+    {1, 200, 130, 0, "agacharse", 128, 16, 255, Left},
+    {1, 200, 150, 0, "accion", 128, 16, 255, Left},
+    {1, 200, 170, 0, "entrar " kHoistZTurn " montar", 128, 16, 255, Left},
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenuPageEntry PauseMenu__PageEntryList_GameSpeak_55d930[21] = {
-    {2, 184, 205, 0, "more", 128, 16, 255, Centre},
-    {1, 184, 20, 0, "GameSpeak", 127, 127, 127, Centre},
+    {2, 184, 205, 0, "mas", 128, 16, 255, Centre},
+    {1, 184, 20, 0, "Dialogos", 127, 127, 127, Centre},
     {1, 184, 55, 0, kChant, 160, 160, 160, Centre},
-    {1, 184, 75, 0, "chant", 128, 16, 255, Centre},
-    {1, 110, 104, 0, "hello", 128, 16, 255, Left},
-    {1, 110, 126, 0, "follow me", 128, 16, 255, Left},
-    {1, 110, 148, 0, "wait", 128, 16, 255, Left},
-    {1, 110, 170, 0, "work", 128, 16, 255, Left},
-    {1, 278, 104, 0, "anger", 128, 16, 255, Left},
-    {1, 278, 126, 0, "all 'ya", 128, 16, 255, Left},
-    {1, 278, 148, 0, "sympathy", 128, 16, 255, Left},
-    {1, 278, 170, 0, "stop it!", 128, 16, 255, Left},
+    {1, 184, 75, 0, "cantar", 128, 16, 255, Centre},
+    {1, 110, 104, 0, "hola", 128, 16, 255, Left},
+    {1, 110, 126, 0, "sigueme", 128, 16, 255, Left},
+    {1, 110, 148, 0, "espera", 128, 16, 255, Left},
+    {1, 110, 170, 0, "trabaja", 128, 16, 255, Left},
+    {1, 278, 104, 0, "furia", 128, 16, 255, Left},
+    {1, 278, 126, 0, "tos vosotros", 128, 16, 255, Left},
+    {1, 278, 148, 0, "compasion", 128, 16, 255, Left},
+    {1, 278, 170, 0, "para!", 128, 16, 255, Left},
     {1, 90, 104, 0, kHello, 160, 160, 160, Right},
     {1, 90, 126, 0, kFollowMe, 160, 160, 160, Right},
     {1, 90, 148, 0, kWait, 160, 160, 160, Right},
@@ -112,16 +112,16 @@ PauseMenuPageEntry PauseMenu__PageEntryList_GameSpeak_55d930[21] = {
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenuPageEntry PauseMenu__PageEntryList_SligSpeak_55da80[19] = {
-    {2, 184, 205, 0, "more", 128, 16, 255, Centre},
-    {1, 184, 20, 0, "SligSpeak", 127, 127, 127, Centre},
-    {1, 110, 104, 0, "hi", 128, 16, 255, Left},
-    {1, 110, 126, 0, "here boy", 128, 16, 255, Left},
-    {1, 110, 148, 0, "freeze", 128, 16, 255, Left},
-    {1, 110, 170, 0, "get 'im", 128, 16, 255, Left},
-    {1, 278, 104, 0, "s'mo bs", 128, 16, 255, Left},
-    {1, 278, 126, 0, "bs", 128, 16, 255, Left},
-    {1, 278, 148, 0, "look out", 128, 16, 255, Left},
-    {1, 278, 170, 0, "laugh", 128, 16, 255, Left},
+    {2, 184, 205, 0, "mas", 128, 16, 255, Centre},
+    {1, 184, 20, 0, "idioma slig", 127, 127, 127, Centre},
+    {1, 110, 104, 0, "hola", 128, 16, 255, Left},
+    {1, 110, 126, 0, "aqui chico", 128, 16, 255, Left},
+    {1, 110, 148, 0, "quieto!", 128, 16, 255, Left},
+    {1, 110, 170, 0, "a por el", 128, 16, 255, Left},
+    {1, 278, 104, 0, "chorradas", 128, 16, 255, Left},
+    {1, 278, 126, 0, "mas chorradas", 128, 16, 255, Left},
+    {1, 278, 148, 0, "cuidado", 128, 16, 255, Left},
+    {1, 278, 170, 0, "risa", 128, 16, 255, Left},
     {1, 90, 104, 0, kHello, 160, 160, 160, Right},
     {1, 90, 126, 0, kFollowMe, 160, 160, 160, Right},
     {1, 90, 148, 0, kWait, 160, 160, 160, Right},
@@ -133,16 +133,16 @@ PauseMenuPageEntry PauseMenu__PageEntryList_SligSpeak_55da80[19] = {
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenuPageEntry PauseMenu__PageEntryList_GlukkonSpeak_55dbb0[19] = {
-    {2, 184, 205, 0, "more", 128, 16, 255, Centre},
-    {1, 184, 20, 0, "GlukkonSpeak", 127, 127, 127, Centre},
+    {2, 184, 205, 0, "mas", 128, 16, 255, Centre},
+    {1, 184, 20, 0, "idioma Glukkon", 127, 127, 127, Centre},
     {1, 110, 104, 0, "hey!", 128, 16, 255, Left},
-    {1, 110, 126, 0, "commere", 128, 16, 255, Left},
-    {1, 110, 148, 0, "stay here", 128, 16, 255, Left},
-    {1, 110, 170, 0, "do it!", 128, 16, 255, Left},
-    {1, 278, 104, 0, "kill'em!", 128, 16, 255, Left},
-    {1, 278, 126, 0, "all o'ya", 128, 16, 255, Left},
-    {1, 278, 148, 0, "help!", 128, 16, 255, Left},
-    {1, 278, 170, 0, "laugh", 128, 16, 255, Left},
+    {1, 110, 126, 0, "ven aqui", 128, 16, 255, Left},
+    {1, 110, 148, 0, "quedate", 128, 16, 255, Left},
+    {1, 110, 170, 0, "hazlo!", 128, 16, 255, Left},
+    {1, 278, 104, 0, "matalos!", 128, 16, 255, Left},
+    {1, 278, 126, 0, "tos vosotros!", 128, 16, 255, Left},
+    {1, 278, 148, 0, "ayuda!", 128, 16, 255, Left},
+    {1, 278, 170, 0, "risa", 128, 16, 255, Left},
     {1, 90, 104, 0, kHello, 160, 160, 160, Right},
     {1, 90, 126, 0, kFollowMe, 160, 160, 160, Right},
     {1, 90, 148, 0, kWait, 160, 160, 160, Right},
@@ -154,14 +154,14 @@ PauseMenuPageEntry PauseMenu__PageEntryList_GlukkonSpeak_55dbb0[19] = {
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenuPageEntry PauseMenu__PageEntryList_ParamiteSpeak_55dce0[15] = {
-    {2, 184, 205, 0, "more", 128, 16, 255, Centre},
-    {1, 184, 20, 0, "ParamiteSpeak", 127, 127, 127, Centre},
-    {1, 110, 104, 0, "howdy", 128, 16, 255, Left},
-    {1, 110, 126, 0, "c'mon", 128, 16, 255, Left},
-    {1, 110, 148, 0, "stay", 128, 16, 255, Left},
-    {1, 110, 170, 0, "do it", 128, 16, 255, Left},
-    {1, 278, 104, 0, "attack", 128, 16, 255, Left},
-    {1, 278, 126, 0, "all a ya!", 128, 16, 255, Left},
+    {2, 184, 205, 0, "mas", 128, 16, 255, Centre},
+    {1, 184, 20, 0, "idioma Paramita", 127, 127, 127, Centre},
+    {1, 110, 104, 0, "hola", 128, 16, 255, Left},
+    {1, 110, 126, 0, "venga", 128, 16, 255, Left},
+    {1, 110, 148, 0, "quedate", 128, 16, 255, Left},
+    {1, 110, 170, 0, "hazlo", 128, 16, 255, Left},
+    {1, 278, 104, 0, "ataca", 128, 16, 255, Left},
+    {1, 278, 126, 0, "tos vosotros!", 128, 16, 255, Left},
     {1, 90, 104, 0, kHello, 160, 160, 160, Right},
     {1, 90, 126, 0, kFollowMe, 160, 160, 160, Right},
     {1, 90, 148, 0, kWait, 160, 160, 160, Right},
@@ -171,23 +171,23 @@ PauseMenuPageEntry PauseMenu__PageEntryList_ParamiteSpeak_55dce0[15] = {
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenuPageEntry PauseMenu__PageEntryList_ScrabSpeak_55ddd0[7] = {
-    {2, 184, 205, 0, "exit", 128, 16, 255, Centre},
-    {1, 184, 20, 0, "ScrabSpeak", 127, 127, 127, Centre},
-    {1, 110, 104, 0, "shred power", 128, 16, 255, Left},
-    {1, 110, 126, 0, "howl", 128, 16, 255, Left},
+    {2, 184, 205, 0, "salir", 128, 16, 255, Centre},
+    {1, 184, 20, 0, "idioma Scrab", 127, 127, 127, Centre},
+    {1, 110, 104, 0, "potencia de giro", 128, 16, 255, Left},
+    {1, 110, 126, 0, "aullar", 128, 16, 255, Left},
     {1, 90, 104, 0, kHello, 160, 160, 160, Right},
     {1, 90, 126, 0, kFollowMe, 160, 160, 160, Right},
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenuPageEntry PauseMenu__PageEntryList_Save_55e4c8[4] = {
     {1, 184, 120, 0, sSaveString_5C931C, 128, 16, 255, Centre},
-    {1, 184, 180, 0, "Enter   Save", 128, 16, 255, Centre},
-    {1, 184, 205, 0, "Esc   Cancel", 128, 16, 255, Centre},
+    {1, 184, 180, 0, "Enter   Guardar", 128, 16, 255, Centre},
+    {1, 184, 205, 0, "Esc   Cancelar", 128, 16, 255, Centre},
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenuPageEntry PauseMenu__PageEntryList_ReallyQuit_55e278[3] = {
-    {1, 184, 110, 0, "REALLY QUIT?", 128, 16, 255, Centre},
-    {1, 184, 135, 0, "Enter yes   Esc no", 160, 160, 160, Centre},
+    {1, 184, 110, 0, "SALIR, SEGURO?", 128, 16, 255, Centre},
+    {1, 184, 135, 0, "Enter si   Esc no", 160, 160, 160, Centre},
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenuPageEntry PauseMenu__PageEntryList_Status_55e738[1] = {
@@ -201,7 +201,7 @@ PauseMenuPageEntry PauseMenu__PageEntryList_Load_55e3a0[9] = {
     {1, 184, 105, 0, "", 128, 16, 255, Centre},
     {1, 184, 130, 0, "", 128, 16, 255, Centre},
     {1, 184, 188, 0, "", 128, 16, 255, Centre},
-    {1, 184, 213, 0, "Esc  Cancel        F6  Load QuikSave", 128, 16, 255, Centre},
+    {1, 184, 213, 0, "Esc  Cancelar      F6  Cargar QuikSave", 128, 16, 255, Centre},
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 
@@ -257,12 +257,12 @@ PauseMenu::PauseMenuPage sPM_Page_Load_546628 = {
 
 PauseMenuPageEntry PauseMenu__PageEntryList_Save_55E4C8[4] = {
     {1, 184, 120, 0, sSaveString_5C931C, 128u, 16u, 255u, 1u},
-    {1, 184, 180, 0, "Enter   Save", 128u, 16u, 255u, 1u},
-    {1, 184, 205, 0, "Esc   Cancel", 128u, 16u, 255u, 1u},
+    {1, 184, 180, 0, "Enter   Guardar", 128u, 16u, 255u, 1u},
+    {1, 184, 205, 0, "Esc   Cancelar", 128u, 16u, 255u, 1u},
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenuPageEntry PauseMenu__PageEntryList_Save_Overwrite_Confirm_55E508[2] = {
-    {1, 184, 180, 0, "Enter Overwrite  Esc Cancel", 160u, 160u, 160u, 1u},
+    {1, 184, 180, 0, "Enter Sobreescribir  Esc Cancelar", 160u, 160u, 160u, 1u},
     {1, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenu::PauseMenuPage sPM_Page_Save_5465C8 = {
@@ -281,11 +281,11 @@ ALIVE_ARY(1, 0x55e718, char_type, 32, sPauseMenu_Of300Mudokons_55E718, {});
 ALIVE_ARY(1, 0x55e738, char_type, 56, sHasBeenTerminated_55E738, {});
 
 PauseMenuPageEntry sStatusEntries_55E758[6] = {
-    {2, 184, 205, 0, "EXIT", 128u, 16u, 255u, 1u},
-    {1, 184, 20, 0, "ABE'S STATUS", 127u, 127u, 127u, 1u},
+    {2, 184, 205, 0, "SALIR", 128u, 16u, 255u, 1u},
+    {1, 184, 20, 0, "ESTADO DE ABE", 127u, 127u, 127u, 1u},
     {1, 184, 145, 0, sPauseMenu_Of300Mudokons_55E718, 128u, 16u, 255u, 1u},
     {1, 184, 170, 0, sHasBeenTerminated_55E738, 128u, 16u, 255u, 1u},
-    {1, 184, 120, 0, "YOU HAVE RESCUED", 128u, 16u, 255u, 1u},
+    {1, 184, 120, 0, "HAS RESCATADO", 128u, 16u, 255u, 1u},
     {0, 0, 0, 0, nullptr, 0u, 0u, 0u, 0u}};
 
 PauseMenu::PauseMenuPage sPM_Page_Status_5465F8 = {
@@ -317,17 +317,17 @@ struct DumpEntry final
 void DumpMenus()
 {
     std::vector<DumpEntry> menuListArrays;
-    menuListArrays.push_back({(void*) 0x55D820, "ControlActions"});
-    menuListArrays.push_back({(void*) 0x55D930, "GameSpeak"});
-    menuListArrays.push_back({(void*) 0x55DA80, "SligSpeak"});
-    menuListArrays.push_back({(void*) 0x55DBB0, "GlukkonSpeak"});
-    menuListArrays.push_back({(void*) 0x55DCE0, "ParamiteSpeak"});
-    menuListArrays.push_back({(void*) 0x55DDD0, "ScrabSpeak"});
+    menuListArrays.push_back({(void*) 0x55D820, "Acciones"});
+    menuListArrays.push_back({(void*) 0x55D930, "Dialogos"});
+    menuListArrays.push_back({(void*) 0x55DA80, "Idioma Slig"});
+    menuListArrays.push_back({(void*) 0x55DBB0, "Idioma Glukkon"});
+    menuListArrays.push_back({(void*) 0x55DCE0, "Idioma Paramita"});
+    menuListArrays.push_back({(void*) 0x55DDD0, "Idioma Scrab"});
 
-    menuListArrays.push_back({(void*) 0x55E4C8, "Save"});
+    menuListArrays.push_back({(void*) 0x55E4C8, "Guardar"});
     menuListArrays.push_back({(void*) 0x55E278, "ReallyQuit"});
-    menuListArrays.push_back({(void*) 0x55E738, "Status"});
-    menuListArrays.push_back({(void*) 0x55E3A0, "Load"});
+    menuListArrays.push_back({(void*) 0x55E738, "Estado"});
+    menuListArrays.push_back({(void*) 0x55E3A0, "Cargar"});
 
     // menuListArrays.push_back({ 0x55DDD0, "" });
 
@@ -1667,8 +1667,8 @@ void PauseMenu::Update_48FD80()
                     }
                 }
 
-                sprintf(sPauseMenu_Of300Mudokons_55E718, "%d OF %d MUDOKONS", sRescuedMudokons_5C1BC2, Path_GetTotalMuds(gMap_5C3030.field_0_current_level, gMap_5C3030.field_2_current_path));
-                sprintf(sHasBeenTerminated_55E738, "%d HA%s BEEN TERMINATED", sKilledMudokons_5C1BC0, (sKilledMudokons_5C1BC0 != 1) ? "VE" : "S");
+                sprintf(sPauseMenu_Of300Mudokons_55E718, "%d DE %d MUDOKONS", sRescuedMudokons_5C1BC2, Path_GetTotalMuds(gMap_5C3030.field_0_current_level, gMap_5C3030.field_2_current_path));
+                sprintf(sHasBeenTerminated_55E738, "%d HAN SIDO ELIMINADOS", sKilledMudokons_5C1BC0);
 
                 if (sActiveHero_5C1B68->field_128.field_12_mood == Mud_Emotion::eNormal_0)
                 {
