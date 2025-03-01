@@ -150,25 +150,25 @@ ALIVE_VAR(1, 0x5080C6, saveName, saveNameBuffer_5080C6, {});
 
 const char_type* gLevelNames_4CE1D4[20] = {
     "¸",
-    "RuptureFarms",
-    "Monsaic Lines",
+    "Granjas hostiles",
+    "Lineas Monsaic",
     "Paramonia",
-    "Paramonian Temple",
-    "Stockyard Escape",
-    "Stockyards",
+    "Templo paramoniano",
+    "Fuga del corral",
+    "Corrales",
     "",
     "Scrabania",
-    "Scrabanian Temple",
+    "Templo scrabaniano",
     "",
     "",
-    "The Boardroom",
-    "RuptureFarms II",
-    "Paramonian Nest",
-    "Scrabanian Nest",
-    "Rescue Zulag 1",
-    "Rescue Zulag 2",
-    "Rescue Zulag 3",
-    "Rescue Zulag 4"};
+    "La sala de juntas",
+    "Granjas hostiles II",
+    "Nidos paramonianos",
+    "Nidos scrabanianos",
+    "Rescate Zulag 1",
+    "Rescate Zulag 2",
+    "Rescate Zulag 3",
+    "Rescate Zulag 4"};
 
 enum PauseMenuPages
 {
@@ -565,11 +565,11 @@ void PauseMenu::VRender(PrimHeader** ppOt)
 ALIVE_VAR(1, 0xA88B90, s8, byte_A88B90, 0);
 
 PauseMenu::PauseEntry pauseEntries_4CDE50[6] = {
-    {184, 85, "CONTINUE", 128u, 16u, 255u, '\x01'},
-    {184, 110, "SAVE", 128u, 16u, 255u, '\x01'},
-    {184, 135, "CONTROLS", 128u, 16u, 255u, '\x01'},
-    {184, 160, "QUIT", 128u, 16u, 255u, '\x01'},
-    {184, 42, "- paused -", 228u, 116u, 99u, '\x01'},
+    {184, 85, "CONTINUAR", 128u, 16u, 255u, '\x01'},
+    {184, 110, "GUARDAR", 128u, 16u, 255u, '\x01'},
+    {184, 135, "CONTROLES", 128u, 16u, 255u, '\x01'},
+    {184, 160, "ABANDONAR", 128u, 16u, 255u, '\x01'},
+    {184, 42, "- en pausa -", 228u, 116u, 99u, '\x01'},
     {0, 0, nullptr, 0u, 0u, 0u, '\0'}};
 
 PauseMenu::PauseEntry PauseEntry2_4CDE98[2] = {
@@ -577,19 +577,19 @@ PauseMenu::PauseEntry PauseEntry2_4CDE98[2] = {
     {0, 0, nullptr, 0u, 0u, 0u, '\0'}};
 
 PauseMenu::PauseEntry quitEntries_4CDEA8[3] = {
-    {184, 110, "REALLY QUIT?", 128u, 16u, 255u, '\x01'},
-    {184, 135, kAO_ConfirmContinue " yes   " kAO_Esc " no", 160u, 160u, 160u, '\x01'},
+    {184, 110, "DE VERDAD QUIERES ABANDONAR?", 128u, 16u, 255u, '\x01'},
+    {184, 135, kAO_ConfirmContinue " si   " kAO_Esc " no", 160u, 160u, 160u, '\x01'},
     {0, 0, nullptr, 0u, 0u, 0u, '\0'}};
 
 PauseMenu::PauseEntry saveEntries_4CDED0[4] = {
     {184, 120, "DUMMY_TEXT", 128u, 16u, 255u, '\x01'},
-    {184, 180, "enter   save", 160u, 160u, 160u, '\x01'},
-    {184, 205, "esc   cancel", 160u, 160u, 160u, '\x01'},
+    {184, 180, "intro  guardar", 160u, 160u, 160u, '\x01'},
+    {184, 205, "esc   cancelar", 160u, 160u, 160u, '\x01'},
     {0, 0, nullptr, 0u, 0u, 0u, '\0'}};
 
 PauseMenu::PauseEntry controlsPageOne_4CDF00[17] = {
     {184, 205, kAO_ConfirmContinue " more  " kAO_Esc " exit", 128u, 16u, 255u, '\x01'},
-    {184, 20, "Actions", 127u, 127u, 127u, '\x01'},
+    {184, 20, "Acciones", 127u, 127u, 127u, '\x01'},
     {80, 50, kAO_Run " + " kAO_Left " " kAO_Right, 160u, 160u, 160u, '\0'},
     {80, 70, kAO_Sneak " + " kAO_Left " " kAO_Right, 160u, 160u, 160u, '\0'},
     {80, 90, kAO_Jump_Or_Hello " " kAO_Or " " kAO_Up, 160u, 160u, 160u, '\0'},
@@ -597,28 +597,28 @@ PauseMenu::PauseEntry controlsPageOne_4CDF00[17] = {
     {80, 130, kAO_Throw " + " kAO_DirectionalButtons, 160u, 160u, 160u, '\0'},
     {80, 150, kAO_Action, 160u, 160u, 160u, '\0'},
     {80, 170, kAO_Up, 160u, 160u, 160u, '\0'},
-    {200, 50, "run", 128u, 16u, 255u, '\0'},
-    {200, 70, "sneak", 128u, 16u, 255u, '\0'},
-    {200, 90, "jump", 128u, 16u, 255u, '\0'},
-    {200, 110, "crouch", 128u, 16u, 255u, '\0'},
-    {200, 130, "throw", 128u, 16u, 255u, '\0'},
-    {200, 150, "action", 128u, 16u, 255u, '\0'},
-    {200, 170, "mount " kAO_Or " zturn", 128u, 16u, 255u, '\0'},
+    {200, 50, "correr", 128u, 16u, 255u, '\0'},
+    {200, 70, "escabullirte", 128u, 16u, 255u, '\0'},
+    {200, 90, "saltar", 128u, 16u, 255u, '\0'},
+    {200, 110, "agacharte", 128u, 16u, 255u, '\0'},
+    {200, 130, "lanzar", 128u, 16u, 255u, '\0'},
+    {200, 150, "accion", 128u, 16u, 255u, '\0'},
+    {200, 170, "entrar " kAO_Or " montar", 128u, 16u, 255u, '\0'},
     {0, 0, nullptr, 0u, 0u, 0u, '\0'}};
 
 PauseMenu::PauseEntry gamepadGameSpeak_4CDFD0[21] = {
-    {184, 205, kAO_Esc " exit", 128u, 16u, 255u, '\x01'},
-    {184, 20, "GameSpeak", 127u, 127u, 127u, '\x01'},
+    {184, 205, kAO_Esc " salir", 128u, 16u, 255u, '\x01'},
+    {184, 20, "Dialogos", 127u, 127u, 127u, '\x01'},
     {184, 55, kAO_Speak1 " + " kAO_Speak2, 160u, 160u, 160u, '\x01'},
-    {184, 75, "chant", 128u, 16u, 255u, '\x01'},
-    {100, 104, "hello", 128u, 16u, 255u, '\0'},
-    {100, 126, "angry", 128u, 16u, 255u, '\0'},
-    {100, 148, "wait", 128u, 16u, 255u, '\0'},
-    {100, 170, "follow me", 128u, 16u, 255u, '\0'},
-    {290, 104, "whistle ", 128u, 16u, 255u, '\0'},
-    {290, 126, "fart", 128u, 16u, 255u, '\0'},
-    {290, 148, "whistle ", 128u, 16u, 255u, '\0'},
-    {290, 170, "laugh", 128u, 16u, 255u, '\0'},
+    {184, 75, "cantar", 128u, 16u, 255u, '\x01'},
+    {100, 104, "hola", 128u, 16u, 255u, '\0'},
+    {100, 126, "furia", 128u, 16u, 255u, '\0'},
+    {100, 148, "esperar", 128u, 16u, 255u, '\0'},
+    {100, 170, "sigeme", 128u, 16u, 255u, '\0'},
+    {290, 104, "silbido 1", 128u, 16u, 255u, '\0'},
+    {290, 126, "pedos", 128u, 16u, 255u, '\0'},
+    {290, 148, "silbido 2", 128u, 16u, 255u, '\0'},
+    {290, 170, "reir", 128u, 16u, 255u, '\0'},
     {2, 104, kAO_Speak1 "+" kAO_Jump_Or_Hello, 160u, 160u, 160u, '\0'},
     {2, 126, kAO_Speak1 "+" kAO_Throw, 160u, 160u, 160u, '\0'},
     {2, 148, kAO_Speak1 "+" kAO_Crouch, 160u, 160u, 160u, '\0'},
@@ -630,18 +630,18 @@ PauseMenu::PauseEntry gamepadGameSpeak_4CDFD0[21] = {
     {0, 0, nullptr, 0u, 0u, 0u, '\0'}};
 
 PauseMenu::PauseEntry keyboardGameSpeak_4CE0D0[21] = {
-    {184, 205, kAO_Esc " exit", 128u, 16u, 255u, '\x01'},
-    {184, 20, "GameSpeak", 127u, 127u, 127u, '\x01'},
+    {184, 205, kAO_Esc " salir", 128u, 16u, 255u, '\x01'},
+    {184, 20, "Dialogos", 127u, 127u, 127u, '\x01'},
     {184, 55, "0", 160u, 160u, 160u, '\x01'},
-    {184, 75, "chant", 128u, 16u, 255u, '\x01'},
-    {90, 104, "hello", 128u, 16u, 255u, '\0'},
-    {90, 126, "follow me", 128u, 16u, 255u, '\0'},
-    {90, 148, "wait", 128u, 16u, 255u, '\0'},
-    {90, 170, "angry", 128u, 16u, 255u, '\0'},
-    {240, 104, "laugh", 128u, 16u, 255u, '\0'},
-    {240, 126, "whistle ", 128u, 16u, 255u, '\0'},
-    {240, 148, "fart", 128u, 16u, 255u, '\0'},
-    {240, 170, "whistle ", 128u, 16u, 255u, '\0'},
+    {184, 75, "cantar", 128u, 16u, 255u, '\x01'},
+    {90, 104, "hola", 128u, 16u, 255u, '\0'},
+    {90, 126, "sigueme", 128u, 16u, 255u, '\0'},
+    {90, 148, "espera", 128u, 16u, 255u, '\0'},
+    {90, 170, "furia", 128u, 16u, 255u, '\0'},
+    {240, 104, "reir", 128u, 16u, 255u, '\0'},
+    {240, 126, "silbido 1", 128u, 16u, 255u, '\0'},
+    {240, 148, "pedos", 128u, 16u, 255u, '\0'},
+    {240, 170, "silbido 2", 128u, 16u, 255u, '\0'},
     {52, 104, "1", 160u, 160u, 160u, '\0'},
     {52, 126, "2", 160u, 160u, 160u, '\0'},
     {52, 148, "3", 160u, 160u, 160u, '\0'},

@@ -88,17 +88,17 @@ const u8 sLCDScreen_Palette2_4C7588[32] = {
 
 static const char_type* sLCDMessageTable_4C7420[90] = {
     "",
-    "                               The profits justify the means.",
-    "                               You are who you eat.",
-    "                               Only 1,236 work related accidents this month. Keep up the good work!",
-    "                               Don't play with your food, unless it plays with you first.",
-    "                               Venerate Authority.",
-    "                               Lead Mudokons to bird portals.",
-    "                               You are not the only one who can hide in shadows.",
-    "                               When a Slig shouts, Look Out!, the wise Mudokon hits the deck.",
-    "                               Decapitation toll cut in half!",
-    "                               Work hard, die young, win valuable prizes!",
-    "                               A little hard work never killed anyone important.",
+    "                               Las ganancias justifican los medios.",
+    "                               Eres lo que comes.",
+    "                               Este mes solo 1.236 accidentes laborales. Buen trabajo, seguid asi!",
+    "                               No juegues con la comida a menos que ella juegue contigo antes.",
+    "                               Venera a la autoridad.",
+    "                               Lleva a los Mudokons a los portales de pajaros.",
+    "                               No eres el unico que puede esconderse entre las sombras.",
+    "                               Cuando un slig grita 'cuidado!', el mudokon inteligente se tira al suelo.",
+    "                               Cuota de decapitacion reducida a la mitad!",
+    "                               Trabaja duro, muere joven, gana valiosos premios!",
+    "                               Un poco de trabajo duro nunca ha matado a nadie importante.",
     "",
     "",
     "",
@@ -138,36 +138,36 @@ static const char_type* sLCDMessageTable_4C7420[90] = {
     "",
     "",
     "",
-    "                               To hoist, stand under the ledge and press " kAO_Up " (up).",
-    "                               To jump, press " kAO_Jump_Or_Hello ".   To run and jump, press " kAO_Jump_Or_Hello " while you run using " kAO_Run ".",
-    "                               To sneak past the sleeping Slig, hold " kAO_Sneak " while you move.",
-    "                               To pull the lever, stand next to it and press " kAO_Action ".",
-    "                               To use the ring, stand under it, and press " kAO_Up ", just like a hoist.",
-    "                               To ride the platform, stand in the center of it, and press " kAO_Down " (down).",
-    "                               To enter the door, stand in front of it and press " kAO_Up ".",
-    "                               To deactivate a bomb, crouch next to it by pressing " kAO_Down ".   Then carefully press " kAO_Action "  when the bomb blinks green.  Press " kAO_Action " again to reactivate it.",
-    "                               Sneak to shadows by holding " kAO_Sneak " while you move.   Stand still in shadows while Slig is facing you, or you will be seen.  Sneak behind Slig when it walks away from you.",
-    "                               To get a grenade from the Boom Machine, stand in front of it and press " kAO_Up ".   To pick up a grenade, crouch next to it and press " kAO_Action ".   To throw the grenade, hold " kAO_Throw ", then press any directional button.   Different directions will throw at different angles.",
-    "                               It is possible to throw while crouching.",
-    "                               To alert a Mudokon, say hello by holding " kAO_Speak1 " and pressing " kAO_Jump_Or_Hello ".   Then, talk to Mudokons by holding " kAO_Speak1 " or " kAO_Speak2 " and pressing the " kAO_Jump_Or_Hello ", " kAO_Action ", " kAO_Throw ", or " kAO_Crouch " button.   Experiment!",
-    "                               Possess Sligs by chanting.   Chant by holding " kAO_Speak1 " and " kAO_Speak2 " at the same time or pressing (0) (zero) on the keyboard.",
-    "                               To help Mudokons escape from slavery in Rupture Farms, chant when you see a circle of birds.   To chant, hold " kAO_Speak1 " and " kAO_Speak2 " at the same time or pressing (0) on the keyboard.",
-    "                               To roll, first crouch by pressing " kAO_Down ".   Then roll left or right by pressing " kAO_Left " or " kAO_Right ".",
-    "                               To run, hold " kAO_Run " while you press " kAO_Left " (left) or " kAO_Right " (right).",
-    "                               To avoid the alarm, stand still when the Motion Detectors touch you.",
-    "                               Use Slig to talk your way past the security door.",
-    "                               Sligs can talk to Slogs.",
-    "                               Use lever to operate meat saw.",
-    "                               Lead Mudokons to bird portals, then chant to rescue them.  Chant by holding " kAO_Speak1 " and " kAO_Speak2 ".",
+    "                               Para impulsarte hacia arriba, ponte bajo la cornisa y pulsa " kAO_Up ".",
+    "                               Para saltar, aprieta " kAO_Jump_Or_Hello ". Para saltar con carrerilla, aprieta " kAO_Jump_Or_Hello " mientras corres apretando " kAO_Run ".",
+    "                               Para escabullirte junto al slig dormido, manten apretado " kAO_Sneak " mientras te mueves.",
+    "                               Para tirar de la palanca, ponte junto a ella y aprieta " kAO_Action ".",
+    "                               Para usar el anillo, ponte debajo y pulsa " kAO_Up ".",
+    "                               Para viajar en la plataforma, ponte en el centro y aprieta  " kAO_Down ".",
+    "                               Para cruzar la puerta, ponte frente a ella y aprieta " kAO_Up ".",
+    "                               Para desactivar una bomba, ponte en cuclillas junto a ella apretando " kAO_Down ". Luego, con cuidado, aprieta " kAO_Action " cuando la bomba tenga un parpadeo verde. Aprieta " kAO_Action " otra vez para reactivarla.",
+    "                               Escabullete hacia las sombras manteniendo apretado " kAO_Sneak " mientras te mueves. Quedate quieto en la sombra mientras el slig mira en tu direccion, o te vera. Escabullete tras el slig cuando se aleje de ti.",
+    "                               Para sacar una granada de la Maquina Explosiva, situate frente a ella y aprieta " kAO_Up ". Para coger una granada, ponte en cuclillas frente a ella y aprieta " kAO_Action ". Para lanzar la granada, manten apretado " kAO_Throw ", y luego aprieta cualquier boton de direccion. Cada boton la enviara a diferentes angulos.",
+    "                               Es posible hacer el lanzamiento estando en cuclillas.",
+    "                               Para alertar a un mudokon, di hola manteniendo apretado " kAO_Speak1 " y apretando " kAO_Jump_Or_Hello ". Luego, habla con los mudokons manteniendo apretado " kAO_Speak1 " o " kAO_Speak2 " y apretando " kAO_Jump_Or_Hello ", " kAO_Action ", " kAO_Throw ", o " kAO_Crouch ". No temas experimentar!",
+    "                               Puedes poseer a los sligs cantando. Para cantar, manten apretado " kAO_Speak1 " y " kAO_Speak2 " al mismo tiempo o (0) en el teclado.",
+    "                               Para ayudar a los mudokons a escapar de la esclavitud en las Granjas Hostiles, canta cuando veas un circulo de pajaros. Para cantar, manten apretados " kAO_Speak1 " y " kAO_Speak2 " al mismo tiempo o (0) en el teclado.",
+    "                               Para rodar por el suelo, primero ponte en cuclillas apretando " kAO_Down ". Luego rueda hacia la izquierda o la derecha apretando " kAO_Left " o " kAO_Right ".",
+    "                               Para correr, manten apretado " kAO_Run " mientras aprietas " kAO_Left " o " kAO_Right ".",
+    "                               Para evitar la alarma, quedate quieto cuando te toquen los Detectores de Movimiento.",
+    "                               Usa al slig para cruzar la puerta de seguridad a base de labia.",
+    "                               Los sligs pueden hablar a los slogs.",
+    "                               Usa la palanca para activar la sierra de carne.",
+    "                               Conduce a los Mudokons a los portales de pajaros, despues canta para rescatarlos. Canta pulsando " kAO_Speak1 " y " kAO_Speak2 " al mismo tiempo o (0) en el teclado.",
     "",
     "",
     "",
     "",
-    "                               You're almost free, Abe!   You must get through the stockyards.   Good luck ...  and watch out for those Scrabs!   They haven't been fed in awhile.",
-    "                               Mudokons entering this door will be slaughtered and packaged as disgusting yet yummy novelty meat products.",
-    "                               Do it, Abe ...  do it!!!",
-    "                               Your first task is to escape from Rupture Farms. Watch out for Sligs!",
-    "                               Run, Abe!   The Sligs have orders to shoot you on sight!",
+    "                               Casi eres libre, Abe! Tienes que cruzar los corrales. Buena suerte... y cuidado con esos scrabs! Hace tiempo que no los alimentan.",
+    "                               Los mudokons que crucen esta puerta seran sacrificados y empaquetados como productos carnicos repugnantes pero novedosos.",
+    "                               Hazlo, Abe...  hazlo!!!",
+    "                               Tu primera tarea es escapar de las Granjas Hostiles. Cuidado con los sligs!",
+    "                               Corre, Abe! Los sligs tienen orden de disparar en cuanto te vean!",
     "",
     "",
     "",
@@ -252,8 +252,8 @@ LCDScreen* LCDScreen::ctor_433F60(Path_LCDScreen* pTlv, s32 tlvInfo)
     else
     {
         strcpy(field_AC_message_buffer,
-               "                               To alert a Mudokon, say hello by holding (1) on the keyboard.   Then, talk to"
-               " Mudokons by using the keyboard numbers (1) thru (8).   Experiment!");
+               "                               Para alertar a un mudokon de tu presencia, saludale manteniendo pulsada la tecla (1) del teclado. Luego puedes"
+               " hablar con los Mudokon utilizando los numeros (1) al (8) del teclado. Experimenta!");
     }
 
     field_A0_message = field_AC_message_buffer;
@@ -356,7 +356,7 @@ void LCDScreen::VUpdate_4341B0()
                 {
                     strcpy(
                         field_AC_message_buffer,
-                        "                               To alert a Mudokon, say hello by holding (1) on the keyboard.   Then, talk to Mudokons by using the keyboard numbers (1) thru (8).   Experiment!");
+                        "                               Para alertar a un mudokon de tu presencia, saludale manteniendo pulsada la tecla (1) del teclado. Luego puedes hablar con los Mudokon utilizando los numeros (1) al (8) del teclado. Experimenta!");
                 }
             }
             else
@@ -373,7 +373,7 @@ void LCDScreen::VUpdate_4341B0()
                 {
                     strcpy(
                         field_AC_message_buffer,
-                        "                               To alert a Mudokon, say hello by holding (1) on the keyboard.   Then, talk to Mudokons by using the keyboard numbers (1) thru (8).   Experiment!");
+                        "                               Para alertar a un mudokon de tu presencia, saludale manteniendo pulsada la tecla (1) del teclado. Luego puedes hablar con los Mudokon utilizando los numeros (1) al (8) del teclado. Experimenta!");
                 }
             }
             auto palSwap = field_98_pal_rect;
