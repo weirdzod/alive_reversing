@@ -1245,7 +1245,7 @@ static s32 CC Sys_WindowClass_Register_SDL(LPCSTR /*lpClassName*/, LPCSTR lpWind
 
     sHwnd_BBB9F4 = SDL_CreateWindow(lpWindowName, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, gScreenRect.w, gScreenRect.h, SDL_WINDOW_SHOWN | SDL_WINDOW_FULLSCREEN | sdlWindowAttributes);
     #else
-    sHwnd_BBB9F4 = SDL_CreateWindow(lpWindowName, x, y, nWidth, nHeight, SDL_WINDOW_RESIZABLE | SDL_WINDOW_ALLOW_HIGHDPI | sdlWindowAttributes);
+    sHwnd_BBB9F4 = SDL_CreateWindow(lpWindowName, x, y, nWidth, nHeight, SDL_WINDOW_RESIZABLE | SDL_WINDOW_ALLOW_HIGHDPI | SDL_WINDOW_FULLSCREEN_DESKTOP | sdlWindowAttributes);
     #endif
 
     Input_InitKeyStateArray_4EDD60();
